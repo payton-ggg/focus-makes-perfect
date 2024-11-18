@@ -13,18 +13,16 @@ const Hero = () => {
                   Vario Component System
                 </div>
                 <div className="mt-3 text-[50px] font-semibold leading-[56px] max-md:max-w-full max-md:text-4xl max-md:leading-[52px]">
-                  Save hours and <br />
-                  build better websites.
+                  Focus on your goal with AI
                 </div>
                 <div className="mt-3 text-sm leading-6">
-                  Lorem ipsum dolor sit amet,{" "}
-                  <span className="font-medium text-black">
-                    consectetur adipiscing elit.
-                  </span>{" "}
-                  Vestibulum sed mauris a ex posuere luctus sit amet ac mi.
+                  Struggling with complex tools like Notion, Asana, or Trello?
+                  That`s why we built a simpler, smarter tool focused on your
+                  goals with AI-driven support. Boost productivity, track
+                  progress, and stay motivated effortlessly.
                 </div>
               </div>
-              <div className="flex overflow-hidden gap-2 justify-center items-center self-start py-2 pr-3 pl-2.5 mt-11 text-sm font-medium leading-6 text-white rounded-lg border border-white border-solid shadow-sm bg-zinc-900 max-md:mt-10">
+              <div className="flex overflow-hidden gap-2 justify-center items-center self-start py-2 pr-3 pl-2.5 mt-8 text-sm font-medium leading-6 text-white rounded-lg border border-white border-solid shadow-sm bg-zinc-900 max-md:mt-10">
                 <div className="self-stretch my-auto flex">
                   <Image
                     alt=""
@@ -47,31 +45,31 @@ const Hero = () => {
                     <Image
                       alt=""
                       src="/notion.png"
-                      className="object-contain shrink-0 self-stretch my-auto aspect-square w-[106px]"
+                      className="w-[200px] origin-top-left rotate-[15deg]"
                       width={200}
                       height={200}
                     />
                   </div>
                 </div>
               </div>
-              <div className="flex gap-1 mt-1">
+              <div className="flex gap-1 mt-5">
                 <div className="flex overflow-hidden flex-col grow shrink-0 justify-center items-start px-16 py-8 rounded-xl basis-0 bg-neutral-100 w-fit max-md:px-5">
                   <div className="flex gap-2.5 items-center">
                     <Image
                       alt=""
-                      src="/.png"
-                      className="object-contain shrink-0 self-stretch my-auto aspect-square w-[106px]"
-                      width={200}
-                      height={200}
+                      src="/asana.png"
+                      className="w-[240px] origin-top-right -rotate-[25deg]"
+                      width={240}
+                      height={240}
                     />
                   </div>
                 </div>
                 <Image
                   alt=""
-                  src="/notion.png"
-                  className="object-contain shrink-0 self-stretch my-auto aspect-square w-[106px]"
+                  src="/trello.png"
+                  className="w-[200px] h-auto origin-top-left rotate-[10deg]"
                   width={200}
-                  height={200}
+                  height={100}
                 />
               </div>
             </div>
